@@ -1,0 +1,3 @@
+shift + ctrl +i ====  to open console in browser
+
+ctrl + backtick(`)==== to get terminal in vs code

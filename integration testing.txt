@@ -1,0 +1,42 @@
+
+<
+component.variable = value;
+fixture.detectChanges();
+
+we need to explicitily call the angular for change detection
+we will write this whenever we change the value which will be used in dom otherewise the changed value will not be updated in dom.
+>
+
+<
+ let button=fixture.debugElement.query(By.css('.glyphicon'));
+ button.triggerEventHandler('click',null);
+
+     .triggerEventHandler('event',data);===> 1st argument is the event which we want to occur
+
+                                             2nd argument is the additional data which we can send about event 
+>
+
+<
+ in integration testing if we want to create a instance for a component then we use the following code 
+
+    beforeEach(() => {
+    fixture = TestBed.createComponent(Test2Component);
+    component = fixture.componentInstance;
+    fixture.detectChanges();
+  }); 
+
+  if the component has a dependencies like services then we need to add that dependencies in the dynamic module of that testing environment as follows
+
+  beforeEach(async(() => {
+    TestBed.configureTestingModule({
+      imports:[],
+      declarations: [Test2Component],
+      providers:[TestService]
+    })
+      .compileComponents();
+  }));
+
+ in unit test we add it in while creating the object as follows
+  
+  component = new Testcomponent(Service);
+>
