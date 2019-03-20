@@ -17,3 +17,5 @@ git push -u origin(remote repo name) master(local repo name)---------------> pus
 git clone url --------------> downloads the repo
 
 git pull ------------> it updates the local repo according to the remote repo 
+
+git remote rm ------------> it removes all remote repos
