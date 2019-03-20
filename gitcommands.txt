@@ -1,0 +1,19 @@
+
+
+git init-----------> initializes local repo
+
+git add .  -----------> adds all files into staging area
+
+git status -------------> displays the files which are in the staging area
+
+git commit -m 'comment'-------------> it pushes the files from staging area to local repo
+
+git remote ------------------> it displays all the remote repos
+
+git remote add origin(remote repo name) repourl ---------------> it adds the remote repo 
+
+git push -u origin(remote repo name) master(local repo name)---------------> pushes the local repo to the remote repo
+
+git clone url --------------> downloads the repo
+
+git pull ------------> it updates the local repo according to the remote repo 
