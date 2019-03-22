@@ -27,3 +27,35 @@ by using dot(.) operator we can add a new member(name value pair) to the object 
 we get undefined if we access the property which was not there in the object.
 
 objects can have methods.
+
+we can access objects in 2 ways 
+1.dot notation 
+2.square bracket notation
+
+
+  address = { 
+              name = "shiva sai"
+            }
+
+1.address.name
+
+2.address["name"]
+
+
+use bracket notation when 
+1.propery name is a invalid identifier
+2.property name is a number
+ address = { 
+              "1" = "shiva sai"
+            }
+
+3.when property name is dynamic
+ address = { 
+              name = "shiva sai"
+            }
+
+var value = "name";
+
+address.value==============>(wrong)
+address[value]==============>(correct)
+
