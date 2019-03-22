@@ -1,0 +1,6 @@
+  var1 == var2 
+checks the value but not type 
+it internally converts the datatype of var1 to the datatype of var2 or vice versa and then compares.
+
+   var1 === var2
+this operator checks both type and value.

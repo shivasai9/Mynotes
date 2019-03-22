@@ -1,0 +1,29 @@
+an object in js is different from java.
+
+object in js will not bound to a class. 
+
+an object in java script is nothing but a collection of name(property) value pairs
+
+  name value pair is a object
+
+ex:
+    address(name) = 'xyz'(value) // name value pair
+
+value may be another name value pair or another object
+
+ex:
+   address = { 
+              name = "shiva sai",
+              street = { 
+                        no = 2434,
+                        name = 'xyz'
+                        }
+
+               }
+
+
+by using dot(.) operator we can add a new member(name value pair) to the object and we can use it to retrive(access) the member of the object. 
+
+we get undefined if we access the property which was not there in the object.
+
+objects can have methods.
