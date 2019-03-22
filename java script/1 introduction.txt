@@ -1,0 +1,17 @@
+server will send a html page to the browser then the browser converts each html tag into a object like wise it 
+constructs a tree of objects called dom tree which is responsible for the view
+
+but the view is static if we want to make the view dynamic then use java script.
+
+
+
+java script converts static html pages into dynamic
+
+java script is used at run time environment like at browsers
+
+java script doesn't have a compilation phase
+
+java script is used to modify the dom tree at run time
+
+browsers will run  the java script.
+
