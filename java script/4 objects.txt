@@ -97,6 +97,58 @@ var obj = {
 
  delete obj.age =========> syntax for deleting a property from the object. 
 
+wrapper objects ==========>
+
+var name = "shiva sai"
+
+if we want to get the length of the string then we use 
+
+name.length
+
+ . operator works only on objects but name is string. how does it work ????
+
+name.length ========> while executing this statement it internally creates a temporary wrapper object around the string and access the length property and then that object will be destroyed.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

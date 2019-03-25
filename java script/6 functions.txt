@@ -1,0 +1,88 @@
+there is no overloading concept in javascript
+
+functions argument count is flexible in java script
+
+if we send the arguments less than the required arguments then we will not get any error but for the arguments which doesn't have any value are assigned to undefined   
+
+if we don't return anything then by default it returns undefined.
+
+functions in js are just like values 
+
+function declaration
+function xyz(){
+--------
+---------
+}
+
+function expression
+var f = function xyz(){
+--------
+---------
+}
+
+anonymous function expression
+var f = function (){
+--------
+---------
+}
+
+
+we can send functions as the arguments
+
+example:
+
+var f1 = function (){
+-----
+------
+}
+
+var f2 = function (fn){
+------------
+------------
+fn();============>here function f1 will call
+}
+
+f2(f1)
+
+                               
+function can be a property of an object.
+
+example:-
+
+var obj = {
+           name:"shiva sai",
+           fn : function(){
+                         ----------
+                         ----------
+                           }
+           }
+
+obj.fn();
+	
+this keyword
+
+example:
+
+var obj = {
+           firstname : "shiva sai",
+           lastname : "telulkuntla",
+           fullname : function(){
+                                  return this.firstname + this.lastname;  =========> here this refers to the current object in which that statement is executing. there we acn use obj.firstname but there is a problem that is if we assign obj to another variable then it will not work.
+                                  }
+
+           }
+
+
+we can make the function with default arguments that means we can send any number of arguments to the function
+
+example:-
+
+var add = function(){
+let sum;
+ for(i=0;i<arguments.length;i++){
+    sum+=arguments[i];
+  }
+return sum;
+}
+
+add(1,2,3,4,5,........);==========>here we can pass any number of arguments

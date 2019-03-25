@@ -1,0 +1,5 @@
+var a = 10; ======> write operation
+
+console.log(a);======> read operation
+
+we can perform a write opertion on a variable which is not declared but we cannot perform a read operation on a variable which is not declared. 

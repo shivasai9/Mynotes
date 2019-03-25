@@ -1,0 +1,3 @@
+window is a global object which contains all the global variables.
+
+the global varaibles are the properties of the window object.
