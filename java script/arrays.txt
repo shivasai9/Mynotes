@@ -1,0 +1,3 @@
+var array = [10,20,30];
+
+array[3]=========> undefined

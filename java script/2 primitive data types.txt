@@ -13,7 +13,7 @@ java script supports loose typing.
   5.null
 1.number:
    it is a type which we can assign to a variable.
-   numbers are 64bit floating point numbers.
+   numbers are 64 bit floating point numbers.
    numbers are not integers.
 2.string:
    strings are sequences of unicode characters(16-bit).

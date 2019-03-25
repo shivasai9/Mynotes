@@ -56,6 +56,63 @@ use bracket notation when
 
 var value = "name";
 
-address.value==============>(wrong)
+address.value===============>(wrong)
 address[value]==============>(correct)
+
+example:
+
+ var address = { 
+              name = "shiva sai"
+            }
+
+address is the variable which holds the address of the object which is in the (heap) memory
+here the address is just reference to the object in memory
+
+nested objects 
+
+
+object variables are equal when they point to same object in the memory.
+
+example:
+
+var obj1 = {
+               name = "shiva sai"
+            }
+
+
+var obj2 = obj1; // here obj1 and obj2 will point to the same loacation in memory.
+
+if(obj1 === obj2){
+ console.log("variables are equal")
+}
+
+we can delete the property of the objects by using delete operator
+
+example:
+
+var obj = {
+            name : "shiva sai",
+            age :  20
+            }
+
+ delete obj.age =========> syntax for deleting a property from the object. 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 

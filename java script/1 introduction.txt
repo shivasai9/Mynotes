@@ -7,7 +7,7 @@ but the view is static if we want to make the view dynamic then use java script.
 
 java script converts static html pages into dynamic
 
-java script is used at run time environment like at browsers
+java script is used at run time environment like in browsers
 
 java script doesn't have a compilation phase
 
