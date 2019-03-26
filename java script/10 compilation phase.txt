@@ -1,0 +1,4 @@
+during compilation phase the variables are registered to its scope. 
+during this phase scope chain is created.
+
+global variables are registered to global scope and local variables are registered to local scope during this phase.
