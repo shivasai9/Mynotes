@@ -1,0 +1,8 @@
+all the assignments will take place in this phase
+
+var a = 2;
+
+in this phase 1st interpreter checks whether the a variable is in the scope or not and assigns 10 to it if not then it looks up level up and starts checking 
+
+it continious this introgation up to glbal scope. 
+  

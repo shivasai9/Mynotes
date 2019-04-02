@@ -1,0 +1,16 @@
+it doesn't matter where we declare the variables either after the usage or before while
+compilation all the variables are lifted or hoisted to top level and then interpretation
+runs
+
+hoisting will not work for function expressions.
+
+example:
+
+fnA();
+
+var fnA = function (){
+}
+
+strict mode in java script
+
+it is used to restrict the behaviour of the java script.

@@ -65,3 +65,9 @@ C:\Users\shiva sai\node\assignment 3>node iife
 so we cannot call the function from another other files.
 iife is also a function which calls automatically when the program starts execution.
 */
+
+if we perform a write operation on a undeclared variable then following steps takes place
+
+1st interpretar checks whether that variable is in the scope or not this introgation continous untill it reaches global scope
+
+if that variable is not present in all the scopes then interpreter will register that variable in the global scope.
