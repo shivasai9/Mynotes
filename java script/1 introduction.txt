@@ -9,7 +9,7 @@ java script converts static html pages into dynamic
 
 java script is used at run time environment like in browsers
 
-java script doesn't have a compilation phase
+java script  have both compilation phase and interpretation phase
 
 java script is used to modify the dom tree at run time
 
