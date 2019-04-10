@@ -1,0 +1,21 @@
+closures are nothing but the functions which remembers its scope.
+
+example:
+
+var a = 10;
+
+function outer(){
+  var b = 20;
+
+  var inner = function (){
+   console.log(a);
+   console.log(b);
+  }
+  return inner;
+}
+
+var innerFn = outer(); =====> here innerFn is a closure which remembers the scope of its variables during its declaration.
+
+innerFn();
+
+setTimeOut also uses closures internally.

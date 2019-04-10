@@ -1,0 +1,5 @@
+routerLink = "path"
+
+[routerLink] = "'path'"
+
+[routerLink] = "['path','path']"
