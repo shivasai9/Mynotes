@@ -1,0 +1,5 @@
+the convention for constructor function is it starts with capital letter.
+
+we can still call regular function in constructor mode using new keyword
+
+but we cannot call constructor function without new keyword.

@@ -4,6 +4,8 @@ object in js will not bound to a class.
 
 an object in java script is nothing but a collection of name(property) value pairs
 
+an object is a collection of different properties(string,number....)
+
   name value pair is a object
 
 ex:

@@ -1,0 +1,9 @@
+  when ever we create a function java script engine creates two objects 
+  1. the object with the name of the function
+  2.the prototype object
+
+java script engine creates a prototype property in function object to access the prototype object.
+from the function object we can access the prototype object by using the prototype property in function object(refer prototype.jpg)
+
+when ever we call a function using new keyword then it returns an other object which points to prototype object. we can access prototype object by using __proto__ property.
+
