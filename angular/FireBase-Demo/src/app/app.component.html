@@ -1,0 +1,37 @@
+<!-- <ul>
+  <li *ngFor="let name of names | async">
+    <pre>{{ name }}</pre>
+  </li>
+</ul> -->
+
+<!DOCTYPE html>
+<html>
+  <body>
+    <form>
+      <label for="fname"> name:</label>
+      <input
+        type="text"
+        id="fname"
+        name="fname"
+        [(ngModel)]="data.name"
+      /><br /><br />
+      <label for="lname">age:</label>
+      <input
+        type="text"
+        id="lname"
+        name="lname"
+        [(ngModel)]="data.age"
+      /><br /><br />
+      <button (click)="submit()">submit</button>
+    </form>
+    <div class="container">
+      <div>
+        <ul>
+          <li *ngFor="let name of names | async">
+            name: {{ name.name }} age: {{ name.age }}
+          </li>
+        </ul>
+      </div>
+    </div>
+  </body>
+</html>

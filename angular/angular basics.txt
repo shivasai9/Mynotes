@@ -1,3 +1,53 @@
 < 
 ng serve --port portnumber
 >
+<
+every project starts with main.ts
+>
+<
+bootstrap: [AppComponent] in ngmodule decorator says that when we start the application in localhost:4200 then the index.html will be served in browser. before that main.ts will execute and initialize the module which was specified there and in that module it checks for bootstrap and it makes the component (which was specified in bootstrap) available while serving index.html
+>
+<
+component decarotor should have template property mush and should, styles and stylesUrl properties is an array here we can specify more than one file for styles. 
+>
+<
+we can select the component in 3 ways 
+1. normal way using selector string as a html tag(<selector></selector>)
+2. attribute selector
+   in .component.ts
+    {
+     selector: "[selector-test]"
+    } 
+   in .html
+   <div selector-test ></div>========> attribute way of selecting component
+3. class selector
+   in .component.ts
+    {
+     selector: '.selector-test'
+    } 
+   in .html
+   <div class="selector-test"></div>========> class way of selecting component
+>
+<
+in string interpolation we can call method also
+>
+<
+property binding is used when we want to change the property of a element in a dom dynamically
+ex: <p [innerText]="variable in typescript"></p>   same as <p>{{variable in typescript}}</p>
+    <button [disabled]="variable in typescript"></button>
+>
+<
+property binding []=============> from .ts to .html
+event binding()================> from .html to .ts
+two way data binding =============> from both html to ts and ts to html
+>
+
+<
+directives are nothing but the instructions to the dom they are 2 types
+1. structural
+2. attribute
+for structural directives we need to use * before useing them 
+>
+<
+we can write if else conditions using template refrence variables and ng-template tag
+>
